@@ -4,7 +4,7 @@
     "description": "Search for the selected kanji or vocabulary on WaniKani; based on Ollie's Search-on-Kitsun.io",
     "version": "1.1",
     "author": "Ollie, Royalnb",
-    "homepage_url": "https://github.com/Royalnb/Search-on-Wanikani",
+    "homepage_url": "https://github.com/12joan/search-on-wanikani",
     "icons": {
         "48": "icons/icon48.png",
         "64": "icons/icon64.png",
