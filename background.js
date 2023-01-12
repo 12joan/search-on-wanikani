@@ -1,6 +1,6 @@
 browser.contextMenus.create({
-    id: "WanikaniKanjiSearch",
-    title: "Search Kanji on Wanikani",
+    id: "WaniKaniKanjiSearch",
+    title: "Search Kanji on WaniKani",
     contexts: ["selection"],
     "icons": {
         "16": "icons/kanji16.png",
@@ -9,8 +9,8 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.create({
-    id: "WanikaniVocabularySearch",
-    title: "Search Vocabulary on Wanikani",
+    id: "WaniKaniVocabularySearch",
+    title: "Search Vocabulary on WaniKani",
     contexts: ["selection"],
     "icons": {
         "16": "icons/vocab16.png",
@@ -19,10 +19,10 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.onClicked.addListener((info, tab) => {
-    if (info.menuItemId === "WanikaniKanjiSearch") {
+    if (info.menuItemId === "WaniKaniKanjiSearch") {
         const url = "https://www.wanikani.com/kanji/"+ info.selectionText;
         browser.tabs.create({url:url});
-    } else if (info.menuItemId === "WanikaniVocabularySearch") {
+    } else if (info.menuItemId === "WaniKaniVocabularySearch") {
         const url = "https://www.wanikani.com/vocabulary/"+ info.selectionText;
         browser.tabs.create({url:url});
     }

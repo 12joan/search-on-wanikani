@@ -1,13 +1,13 @@
 # Search on WaniKani
 
-Search for selected text on Wanikani
+Search for selected text on WaniKani
 
 ## Quick start
 
 1. Install the [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/search-on-wanikani/)
 2. Select any text on a web page
 3. Right-click to open the context menu
-4. Choose either "Search Kanji on Wanikani" or "Search Vocabulary on Wanikani"
+4. Choose either "Search Kanji on WaniKani" or "Search Vocabulary on WaniKani"
 
 ## Development
 

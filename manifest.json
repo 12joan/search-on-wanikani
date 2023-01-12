@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name":"Search on Wanikani",
-    "description": "Search for the selected kanji or vocabulary on Wanikani; based on Ollie's Search-on-Kitsun.io",
+    "name":"Search on WaniKani",
+    "description": "Search for the selected kanji or vocabulary on WaniKani; based on Ollie's Search-on-Kitsun.io",
     "version": "1.1",
     "author": "Ollie, Royalnb",
     "homepage_url": "https://github.com/Royalnb/Search-on-Wanikani",
