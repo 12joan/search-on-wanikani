@@ -2,8 +2,8 @@
     "manifest_version": 2,
     "name":"Search on WaniKani",
     "description": "Search for the selected kanji or vocabulary on WaniKani; based on Ollie's Search-on-Kitsun.io",
-    "version": "1.1",
-    "author": "Ollie, Royalnb",
+    "version": "1.2",
+    "author": "Ollie, Royalnb, Joe Anderson",
     "homepage_url": "https://github.com/12joan/search-on-wanikani",
     "icons": {
         "48": "icons/icon48.png",
