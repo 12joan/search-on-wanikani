@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name":"Kitsun.io Search",
-    "description": "Search for the selected text in Kitsun.io's dictionary",
-    "version": "1.0",
-    "author": "Ollie",
-    "homepage_url": "https://github.com/Ollie2304",
+    "name":"Search on Wanikani",
+    "description": "Search for the selected kanji or vocabulary on Wanikani; based on Ollie's Search-on-Kitsun.io",
+    "version": "1.1",
+    "author": "Ollie, Royalnb",
+    "homepage_url": "https://github.com/Royalnb/Search-on-Wanikani",
     "icons": {
         "48": "icons/icon48.png",
         "64": "icons/icon64.png",
