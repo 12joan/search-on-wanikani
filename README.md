@@ -1,2 +1,36 @@
 # Search on WaniKani
-Select any text on the webpage and right-click to open the context menu where you can select "Search Kanji on Wanikani" and "Search Vocabulary on Wanikani". This will take you straight to wanikani.com and look up the highlighted Kanji or Vocabulary.
+
+Search for selected text on Wanikani
+
+## Quick start
+
+1. Install the [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/search-on-wanikani/)
+2. Select any text on a web page
+3. Right-click to open the context menu
+4. Choose either "Search Kanji on Wanikani" or "Search Vocabulary on Wanikani"
+
+## Development
+
+To run the extension locally, we recommend using the [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) NPM module, which you can install as follows.
+
+```
+# NPM
+npm install --global web-ext
+
+# Yarn
+yarn global add web-ext
+```
+
+To open the extension in a fresh Firefox instance,
+
+```
+web-ext run
+```
+
+To package the extension for publishing on addons.mozilla.org,
+
+```
+web-ext build
+```
+
+See the [web-ext documentation](https://github.com/mozilla/web-ext#documentation) for more information.
