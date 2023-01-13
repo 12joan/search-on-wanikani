@@ -34,3 +34,8 @@ web-ext build
 ```
 
 See the [web-ext documentation](https://github.com/mozilla/web-ext#documentation) for more information.
+
+## See also
+
+- [Search on Kitsun.io](https://github.com/Ollie2304/Search-on-Kitsun.io)
+- [Search on Bunpro](https://github.com/12joan/search-on-bunpro)
